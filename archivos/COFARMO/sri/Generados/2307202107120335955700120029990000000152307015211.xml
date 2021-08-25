@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<comprobanteRetencion id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>MORALES VARAS NELSON GUILLERMO</razonSocial>
+    <nombreComercial>COFARMO DISTRIBUCIONES</nombreComercial>
+    <ruc>1203359557001</ruc>
+    <claveAcceso>2307202107120335955700120029990000000152307015211</claveAcceso>
+    <codDoc>07</codDoc>
+    <estab>002</estab>
+    <ptoEmi>999</ptoEmi>
+    <secuencial>000000015</secuencial>
+    <dirMatriz>LOS RIOS / BABAHOYO / DR. CAMILO PONCE / LONGITUDINAL 2 S/N Y TRANSVERSAL B</dirMatriz>
+  </infoTributaria>
+  <infoCompRetencion>
+    <fechaEmision>23/07/2021</fechaEmision>
+    <dirEstablecimiento>LOS RIOS / BABAHOYO / DR. CAMILO PONCE / LONGITUDINAL 2 S/N Y TRANSVERSAL B</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+    <razonSocialSujetoRetenido>BYRON PIBAQUE</razonSocialSujetoRetenido>
+    <identificacionSujetoRetenido>1250649009001</identificacionSujetoRetenido>
+    <periodoFiscal>07/2021</periodoFiscal>
+  </infoCompRetencion>
+  <impuestos>
+    <impuesto>
+      <codigo>1</codigo>
+      <codigoRetencion>303</codigoRetencion>
+      <baseImponible>49.4</baseImponible>
+      <porcentajeRetener>10</porcentajeRetener>
+      <valorRetenido>4.94</valorRetenido>
+      <codDocSustento>01</codDocSustento>
+      <numDocSustento>001670000000119</numDocSustento>
+      <fechaEmisionDocSustento>18/07/2021</fechaEmisionDocSustento>
+    </impuesto>
+  </impuestos>
+  <infoAdicional>
+    <campoAdicional nombre="Email">enmanuelpibaque@outlook.es</campoAdicional>
+    <campoAdicional nombre="Dirección">BABAHOYO</campoAdicional>
+  </infoAdicional>
+</comprobanteRetencion>
