@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>MORALES VARAS NELSON GUILLERMO</razonSocial>
+    <nombreComercial>COFARMO DISTRIBUCIONES</nombreComercial>
+    <ruc>1203359557001</ruc>
+    <claveAcceso>2006202201120335955700120020020000001022006102010</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>002</estab>
+    <ptoEmi>002</ptoEmi>
+    <secuencial>000000102</secuencial>
+    <dirMatriz>LOS RIOS / BABAHOYO / DR. CAMILO PONCE / LONGITUDINAL 2 S/N Y TRANSVERSAL B</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>20/06/2022</fechaEmision>
+    <dirEstablecimiento>LOS RIOS / BABAHOYO / DR. CAMILO PONCE / LONGITUDINAL 2 S/N Y TRANSVERSAL B</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>BODEGA COFARMO</razonSocialComprador>
+    <identificacionComprador>1203359557001</identificacionComprador>
+    <direccionComprador>BABAHOYO</direccionComprador>
+    <totalSinImpuestos>0.23</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <baseImponible>0.23</baseImponible>
+        <tarifa>0</tarifa>
+        <valor>0.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>0.23</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>01</formaPago>
+        <total>0.23</total>
+        <plazo>0</plazo>
+        <unidadTiempo>NINGUNO</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>7750215004609</codigoPrincipal>
+      <codigoAuxiliar>2034532</codigoAuxiliar>
+      <descripcion>AMOXICILINA 500MG </descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>0.23</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>0.23</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="AMOXICILINA 500MG "/>
+        <detAdicional nombre="fechas" valor="03/2022-03/2025"/>
+        <detAdicional nombre="regSanitario" valor="5078-MEE-0420"/>
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>0.23</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Email">cofarmo@yahoo.com</campoAdicional>
+    <campoAdicional nombre="Dirección">BABAHOYO</campoAdicional>
+    <campoAdicional nombre="Teléfono">052718323</campoAdicional>
+  </infoAdicional>
+</factura>

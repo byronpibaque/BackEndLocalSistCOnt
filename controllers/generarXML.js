@@ -281,17 +281,19 @@ export default {
             rutadevu =fullpath+"\\"+carpeta+"\\sri\\Devueltos\\";
             rutafirma =fullpath+"\\"+carpeta+"\\sri\\Firma\\JOSUE_REYNALDO_MONTOYA_MACIAS.p12";
             executablePath = fullpath+"\\"+carpeta+"\\sri\\xadesBes\\Firma_Autorizacion.exe";
-        }else if(razonSocial=="nn"){
+        }else if(razonSocial=="COMERCIALIZADORA VANEROMO S.A"){
             carpeta="VANEROMO"
+            claveFirma="Amira2021M"
             rutaauto=fullpath+"\\"+carpeta+"\\sri\\Autorizados\\";
             rutadevu =fullpath+"\\"+carpeta+"\\sri\\Devueltos\\";
-            rutafirma =fullpath+"\\"+carpeta+"\\sri\\Firma\\nelson_guillermo_morales_varas.p12";
+            rutafirma =fullpath+"\\"+carpeta+"\\sri\\Firma\\COMERCIALIZADORA VANEROMO S.A.p12";
             executablePath = fullpath+"\\"+carpeta+"\\sri\\xadesBes\\Firma_Autorizacion.exe";
         }else if(razonSocial=="GUILLERMO MORALES DISTRIBUCIONES COFARMODIS S.A."){
             carpeta="COFARMODIS"
+            claveFirma="099Cofar"
             rutaauto=fullpath+"\\"+carpeta+"\\sri\\Autorizados\\";
             rutadevu =fullpath+"\\"+carpeta+"\\sri\\Devueltos\\";
-            rutafirma =fullpath+"\\"+carpeta+"\\sri\\Firma\\nelson_guillermo_morales_varas.p12";
+            rutafirma =fullpath+"\\"+carpeta+"\\sri\\Firma\\COFARMODIS S.A NELSON GUILLERMO MORALES VARAS.p12";
             executablePath = fullpath+"\\"+carpeta+"\\sri\\xadesBes\\Firma_Autorizacion.exe";
         }
 
@@ -417,7 +419,7 @@ export default {
                 /*
                :\DESARROLLO\INTEGRACONT\BACKEND L\archivos\ROMERO\sri\Firma\ANTONIA_VANESSA_ROMERO_MONTALVAN.p12
                 */
-            if(razonSocial=="MORALES VARAS NELSON GUILLERMO"){
+               if(razonSocial=="MORALES VARAS NELSON GUILLERMO"){
                 carpeta="COFARMO"
                 rutaauto=fullpath+"\\"+carpeta+"\\sri\\Autorizados\\";
                 rutadevu =fullpath+"\\"+carpeta+"\\sri\\Devueltos\\";
@@ -445,17 +447,19 @@ export default {
                 rutadevu =fullpath+"\\"+carpeta+"\\sri\\Devueltos\\";
                 rutafirma =fullpath+"\\"+carpeta+"\\sri\\Firma\\JOSUE_REYNALDO_MONTOYA_MACIAS.p12";
                 executablePath = fullpath+"\\"+carpeta+"\\sri\\xadesBes\\Firma_Autorizacion.exe";
-            }else if(razonSocial=="nn"){
+            }else if(razonSocial=="COMERCIALIZADORA VANEROMO S.A"){
                 carpeta="VANEROMO"
+                claveFirma="Amira2021M"
                 rutaauto=fullpath+"\\"+carpeta+"\\sri\\Autorizados\\";
                 rutadevu =fullpath+"\\"+carpeta+"\\sri\\Devueltos\\";
-                rutafirma =fullpath+"\\"+carpeta+"\\sri\\Firma\\nelson_guillermo_morales_varas.p12";
+                rutafirma =fullpath+"\\"+carpeta+"\\sri\\Firma\\COMERCIALIZADORA VANEROMO S.A.p12";
                 executablePath = fullpath+"\\"+carpeta+"\\sri\\xadesBes\\Firma_Autorizacion.exe";
             }else if(razonSocial=="GUILLERMO MORALES DISTRIBUCIONES COFARMODIS S.A."){
                 carpeta="COFARMODIS"
+                claveFirma="099Cofar"
                 rutaauto=fullpath+"\\"+carpeta+"\\sri\\Autorizados\\";
                 rutadevu =fullpath+"\\"+carpeta+"\\sri\\Devueltos\\";
-                rutafirma =fullpath+"\\"+carpeta+"\\sri\\Firma\\nelson_guillermo_morales_varas.p12";
+                rutafirma =fullpath+"\\"+carpeta+"\\sri\\Firma\\COFARMODIS S.A NELSON GUILLERMO MORALES VARAS.p12";
                 executablePath = fullpath+"\\"+carpeta+"\\sri\\xadesBes\\Firma_Autorizacion.exe";
             }
     

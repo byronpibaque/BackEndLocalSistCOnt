@@ -42,6 +42,9 @@
     "xmldom": "^0.3.0"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "esm": "^3.2.25",
     "nodemo": "^1.0.0",
     "nodemon": "^2.0.7"
