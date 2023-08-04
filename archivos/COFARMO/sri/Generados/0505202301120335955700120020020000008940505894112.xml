@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>MORALES VARAS NELSON GUILLERMO</razonSocial>
+    <nombreComercial>COFARMO DISTRIBUCIONES</nombreComercial>
+    <ruc>1203359557001</ruc>
+    <claveAcceso>0505202301120335955700120020020000008940505894112</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>002</estab>
+    <ptoEmi>002</ptoEmi>
+    <secuencial>000000894</secuencial>
+    <dirMatriz>LOS RIOS / BABAHOYO / DR. CAMILO PONCE / LONGITUDINAL 2 S/N Y TRANSVERSAL B</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>05/05/2023</fechaEmision>
+    <dirEstablecimiento>LOS RIOS / BABAHOYO / DR. CAMILO PONCE / LONGITUDINAL 2 S/N Y TRANSVERSAL B</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>COMITE DE LA UNIDAD DE HEMODIALISIS DE PROVINCIA DE LOS RIOS "DIAL-RIOS"</razonSocialComprador>
+    <identificacionComprador>1291712203001</identificacionComprador>
+    <direccionComprador>LOS RIOS / BABAHOYO / DR.CAMILO PONCE/ CENTRAL Y CALLE A</direccionComprador>
+    <totalSinImpuestos>1040.00</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <baseImponible>1040.00</baseImponible>
+        <tarifa>0</tarifa>
+        <valor>0.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>1040.00</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>1040</total>
+        <plazo>30</plazo>
+        <unidadTiempo>dias</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>7861097205562</codigoPrincipal>
+      <codigoAuxiliar>230302</codigoAuxiliar>
+      <descripcion>DOXAZOSINA 4MGMG </descripcion>
+      <cantidad>2000</cantidad>
+      <precioUnitario>0.52</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>1040.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="DOXAZOSINA 4MG"/>
+        <detAdicional nombre="fechas" valor="FE: 2023-03-01 FC: 2023-05-02"/>
+        <detAdicional nombre="regSanitario" valor="GBN1071112"/>
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>1040.00</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Email">123@gmail.com</campoAdicional>
+    <campoAdicional nombre="Dirección">LOS RIOS / BABAHOYO / DR.CAMILO PONCE/ CENTRAL Y CALLE A</campoAdicional>
+    <campoAdicional nombre="Teléfono">0000000000</campoAdicional>
+  </infoAdicional>
+</factura>

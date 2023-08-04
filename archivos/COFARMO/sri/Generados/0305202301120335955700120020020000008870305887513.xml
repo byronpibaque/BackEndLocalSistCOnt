@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>MORALES VARAS NELSON GUILLERMO</razonSocial>
+    <nombreComercial>COFARMO DISTRIBUCIONES</nombreComercial>
+    <ruc>1203359557001</ruc>
+    <claveAcceso>0305202301120335955700120020020000008870305887513</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>002</estab>
+    <ptoEmi>002</ptoEmi>
+    <secuencial>000000887</secuencial>
+    <dirMatriz>LOS RIOS / BABAHOYO / DR. CAMILO PONCE / LONGITUDINAL 2 S/N Y TRANSVERSAL B</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>03/05/2023</fechaEmision>
+    <dirEstablecimiento>LOS RIOS / BABAHOYO / DR. CAMILO PONCE / LONGITUDINAL 2 S/N Y TRANSVERSAL B</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>BYRON ENMANUEL PIBAQUE VERA</razonSocialComprador>
+    <identificacionComprador>1250649009</identificacionComprador>
+    <direccionComprador>Babahoyo</direccionComprador>
+    <totalSinImpuestos>68.00</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <baseImponible>68.00</baseImponible>
+        <tarifa>0</tarifa>
+        <valor>0.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>68.00</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>01</formaPago>
+        <total>68</total>
+        <plazo>0</plazo>
+        <unidadTiempo>NINGUNO</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>12345678901</codigoPrincipal>
+      <codigoAuxiliar>ABCD-2354</codigoAuxiliar>
+      <descripcion>DESCRIPCION DE PRUEBA detalladoMG/MG </descripcion>
+      <cantidad>34</cantidad>
+      <precioUnitario>2</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>68.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="COMERCIAL TEST"/>
+        <detAdicional nombre="fechas" valor="FE: 2023-05-02 FC: 2023-05-02"/>
+        <detAdicional nombre="regSanitario" valor="MVMDFV-126356"/>
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>68.00</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Email">bepibaque@gmail.com</campoAdicional>
+    <campoAdicional nombre="Dirección">Babahoyo</campoAdicional>
+    <campoAdicional nombre="Teléfono">0960864248</campoAdicional>
+  </infoAdicional>
+</factura>

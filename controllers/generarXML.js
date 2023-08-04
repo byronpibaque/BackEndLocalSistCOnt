@@ -131,6 +131,13 @@ function p_obtener_codigo_autorizacion(fechaEmision, tipoComprobante, ruc, ambie
 export default {
 
     xml: async (req, res, next) => {
+        let baseImponibleSuma = 0.0;
+        req.body.detalles.detalle.forEach(element => {
+            if (element[0][0].impuestos.impuesto[0].tarifa == 12){
+                baseImponibleSuma += parseFloat(element[0][0].impuestos.impuesto[0].baseImponible)
+            }
+        })
+        // return
         let detalle = req.body.detalles.detalle;
         let pago = req.body.infoFactura.pagos.pago;
         var builder = require('xmlbuilder');
@@ -224,7 +231,7 @@ export default {
         
         estructuraFactura[tipoComprobante].infoFactura.totalConImpuestos.totalImpuesto[0].codigo = req.body.infoFactura.totalConImpuestos.totalImpuesto.codigo;
         estructuraFactura[tipoComprobante].infoFactura.totalConImpuestos.totalImpuesto[0].codigoPorcentaje = req.body.infoFactura.totalConImpuestos.totalImpuesto.codigoPorcentaje;
-        estructuraFactura[tipoComprobante].infoFactura.totalConImpuestos.totalImpuesto[0].baseImponible = req.body.infoFactura.totalConImpuestos.totalImpuesto.baseImponible;
+        estructuraFactura[tipoComprobante].infoFactura.totalConImpuestos.totalImpuesto[0].baseImponible = baseImponibleSuma;
         estructuraFactura[tipoComprobante].infoFactura.totalConImpuestos.totalImpuesto[0].tarifa = req.body.infoFactura.totalConImpuestos.totalImpuesto.tarifa;
         estructuraFactura[tipoComprobante].infoFactura.totalConImpuestos.totalImpuesto[0].valor = req.body.infoFactura.totalConImpuestos.totalImpuesto.valor;
         //      INFORMACION DE FACTURA
@@ -301,13 +308,8 @@ export default {
         var clave=p_obtener_codigo_autorizacion_desde_comprobante(estructuraFactura);
         var numcomprobante=pad(req.body.infoTributaria.estab, 3)+'-'+pad(req.body.infoTributaria.ptoEmi, 3)+'-'+req.body.infoTributaria.secuencial;
     
-    
-       
-        
-        
         var child = require('child_process').execFile;
-       
-       
+    
         var parameters = [
             ruta,
             rutafirma,
@@ -467,13 +469,8 @@ export default {
             var clave=p_obtener_codigo_autorizacion_desde_comprobanteR(estructuraFactura);
             var numcomprobante=pad(req.body.infoTributaria.estab, 3)+'-'+pad(req.body.infoTributaria.ptoEmi, 3)+'-'+req.body.infoTributaria.secuencial;
         
-        
-           
-            
-            
             var child = require('child_process').execFile;
-           
-           
+
             var parameters = [
                 ruta,
                 rutafirma,
@@ -498,13 +495,7 @@ export default {
                                   
                                 }
                              });    
-                             
-
                 })
             },
-
-    
-            
 } 
-
 

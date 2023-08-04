@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>MORALES VARAS NELSON GUILLERMO</razonSocial>
+    <nombreComercial>COFARMO DISTRIBUCIONES</nombreComercial>
+    <ruc>1203359557001</ruc>
+    <claveAcceso>0405202301120335955700120020020000008900405890210</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>002</estab>
+    <ptoEmi>002</ptoEmi>
+    <secuencial>000000890</secuencial>
+    <dirMatriz>LOS RIOS / BABAHOYO / DR. CAMILO PONCE / LONGITUDINAL 2 S/N Y TRANSVERSAL B</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>04/05/2023</fechaEmision>
+    <dirEstablecimiento>LOS RIOS / BABAHOYO / DR. CAMILO PONCE / LONGITUDINAL 2 S/N Y TRANSVERSAL B</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>MIGUEZ ROMERO SUANNY VANESSA</razonSocialComprador>
+    <identificacionComprador>1207973148001</identificacionComprador>
+    <direccionComprador>La quinta</direccionComprador>
+    <totalSinImpuestos>100.00</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <baseImponible>100.00</baseImponible>
+        <tarifa>0</tarifa>
+        <valor>0.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>100.00</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>01</formaPago>
+        <total>100</total>
+        <plazo>0</plazo>
+        <unidadTiempo>NINGUNO</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>12345678901</codigoPrincipal>
+      <codigoAuxiliar>ABCD-1234</codigoAuxiliar>
+      <descripcion>DESCRIPCION DE PRUEBA detalladoMG/MG </descripcion>
+      <cantidad>100</cantidad>
+      <precioUnitario>1</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>100.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="NOMBRE COMERCIAL DE PRUEBA"/>
+        <detAdicional nombre="fechas" valor="FE: 2023-05-05 FC: 2023-05-04"/>
+        <detAdicional nombre="regSanitario" valor="MNFGH-3452"/>
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>100.00</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Email">suanny@gmail.com</campoAdicional>
+    <campoAdicional nombre="Dirección">La quinta</campoAdicional>
+    <campoAdicional nombre="Teléfono">0956478398</campoAdicional>
+  </infoAdicional>
+</factura><?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>MORALES VARAS NELSON GUILLERMO</razonSocial>
+    <nombreComercial>COFARMO DISTRIBUCIONES</nombreComercial>
+    <ruc>1203359557001</ruc>
+    <claveAcceso>0405202301120335955700120020020000008900405890210</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>002</estab>
+    <ptoEmi>002</ptoEmi>
+    <secuencial>000000890</secuencial>
+    <dirMatriz>LOS RIOS / BABAHOYO / DR. CAMILO PONCE / LONGITUDINAL 2 S/N Y TRANSVERSAL B</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>04/05/2023</fechaEmision>
+    <dirEstablecimiento>LOS RIOS / BABAHOYO / DR. CAMILO PONCE / LONGITUDINAL 2 S/N Y TRANSVERSAL B</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>MIGUEZ ROMERO SUANNY VANESSA</razonSocialComprador>
+    <identificacionComprador>1207973148001</identificacionComprador>
+    <direccionComprador>La quinta</direccionComprador>
+    <totalSinImpuestos>100.00</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <baseImponible>100.00</baseImponible>
+        <tarifa>0</tarifa>
+        <valor>0.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>100.00</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>01</formaPago>
+        <total>100</total>
+        <plazo>0</plazo>
+        <unidadTiempo>NINGUNO</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>12345678901</codigoPrincipal>
+      <codigoAuxiliar>ABCD-1234</codigoAuxiliar>
+      <descripcion>DESCRIPCION DE PRUEBA detalladoMG/MG </descripcion>
+      <cantidad>50</cantidad>
+      <precioUnitario>2</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>100.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="NOMBRE COMERCIAL DE PRUEBA"/>
+        <detAdicional nombre="fechas" valor="FE: 2023-05-05 FC: 2023-05-04"/>
+        <detAdicional nombre="regSanitario" valor="MNFGH-3452"/>
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>100.00</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Email">suanny@gmail.com</campoAdicional>
+    <campoAdicional nombre="Dirección">La quinta</campoAdicional>
+    <campoAdicional nombre="Teléfono">0956478398</campoAdicional>
+  </infoAdicional>
+</factura>
