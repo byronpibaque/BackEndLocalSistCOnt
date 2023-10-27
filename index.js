@@ -43,7 +43,7 @@ if (process.env.NODE_ENV === "production"){
     });
 }else{
     app.use('/api',router);
-    app.set('port',process.env.PORT || 10000);
+    app.set('port',process.env.PORT || 5000);
 
     app.listen(
         app.get('port'),()=>{

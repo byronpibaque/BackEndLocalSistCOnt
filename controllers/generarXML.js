@@ -276,7 +276,7 @@ export default {
     estructuraFactura[
       tipoComprobante
     ].infoFactura.totalConImpuestos.totalImpuesto[0].baseImponible =
-      baseImponibleSuma;
+      req.body.infoFactura.importeTotal;
     estructuraFactura[
       tipoComprobante
     ].infoFactura.totalConImpuestos.totalImpuesto[0].tarifa =
@@ -306,6 +306,7 @@ export default {
     let carpeta = "";
     let rutafirma = "";
     let rutaauto = "";
+    let rutanoauto = "";
     let rutadevu = "";
     let executablePath = "";
     let razonSocial = req.body.infoTributaria.razonSocial;
@@ -316,6 +317,7 @@ export default {
     if (razonSocial == "MORALES VARAS NELSON GUILLERMO") {
       carpeta = "COFARMO";
       rutaauto = fullpath + "\\" + carpeta + "\\sri\\Autorizados\\";
+      rutanoauto = fullpath + "\\" + carpeta + "\\sri\\NoAutorizados\\";
       rutadevu = fullpath + "\\" + carpeta + "\\sri\\Devueltos\\";
       rutafirma =
         fullpath +
@@ -329,6 +331,8 @@ export default {
       carpeta = "ROMERO";
       claveFirma = "Anto2021R";
       rutaauto = fullpath + "\\" + carpeta + "\\sri\\Autorizados\\";
+      rutanoauto = fullpath + "\\" + carpeta + "\\sri\\NoAutorizados\\";
+
       rutadevu = fullpath + "\\" + carpeta + "\\sri\\Devueltos\\";
       rutafirma =
         fullpath +
@@ -341,6 +345,7 @@ export default {
       carpeta = "ALEMAN";
       claveFirma = "Ruth8512";
       rutaauto = fullpath + "\\" + carpeta + "\\sri\\Autorizados\\";
+      rutanoauto = fullpath + "\\" + carpeta + "\\sri\\NoAutorizados\\";
       rutadevu = fullpath + "\\" + carpeta + "\\sri\\Devueltos\\";
       rutafirma = fullpath + "\\sri\\Firma\\ALEXANDRA_RUTH_ALEMAN_ROBALINO.p12";
       executablePath =
@@ -349,6 +354,8 @@ export default {
       carpeta = "MONTOYA";
       claveFirma = "Reynal7712";
       rutaauto = fullpath + "\\" + carpeta + "\\sri\\Autorizados\\";
+      rutanoauto = fullpath + "\\" + carpeta + "\\sri\\NoAutorizados\\";
+
       rutadevu = fullpath + "\\" + carpeta + "\\sri\\Devueltos\\";
       rutafirma =
         fullpath +
@@ -361,6 +368,8 @@ export default {
       carpeta = "VANEROMO";
       claveFirma = "Amira2021M";
       rutaauto = fullpath + "\\" + carpeta + "\\sri\\Autorizados\\";
+      rutanoauto = fullpath + "\\" + carpeta + "\\sri\\NoAutorizados\\";
+
       rutadevu = fullpath + "\\" + carpeta + "\\sri\\Devueltos\\";
       rutafirma =
         fullpath +
@@ -375,6 +384,7 @@ export default {
       carpeta = "COFARMODIS";
       claveFirma = "099Cofar";
       rutaauto = fullpath + "\\" + carpeta + "\\sri\\Autorizados\\";
+      rutanoauto = fullpath + "\\" + carpeta + "\\sri\\NoAutorizados\\";
       rutadevu = fullpath + "\\" + carpeta + "\\sri\\Devueltos\\";
       rutafirma =
         fullpath +
@@ -403,16 +413,17 @@ export default {
 
     var child = require("child_process").execFile;
 
-    var parameters = [ruta, rutafirma, rutadevu, rutaauto, claveFirma];
+    var parameters = [ruta, rutafirma, rutadevu, rutaauto, claveFirma, rutanoauto];
     fs.appendFile(ruta, xml, (err) => {
       if (err) throw err;
       child(executablePath, parameters, function (err, data) {
         if (err) {
           console.log(err);
-          res.status(500).json(2);
+          res.status(500).json(err);
         } else {
-          console.log(data);
-          res.status(200).json([clave, numcomprobante, ruta]);
+
+            res.status(200).json([clave, numcomprobante, ruta]);
+
         }
       });
     });

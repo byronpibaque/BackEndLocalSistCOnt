@@ -1487,7 +1487,7 @@ text-align: center;
             if (err) {
               throw err;
             } else {
-              enviar(from, correo, mensaje, asunto, keyss, rutaXML, rutaPDF);
+            //  enviar(from, correo, mensaje, asunto, keyss, rutaXML, rutaPDF);
               res.status(200).jsonp("Generado");
             }
           }
