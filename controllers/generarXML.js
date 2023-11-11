@@ -145,10 +145,15 @@ function p_obtener_codigo_autorizacion(
 export default {
   xml: async (req, res, next) => {
     let baseImponibleSuma = 0.0;
+    let valorSuma = 0.0;
     req.body.detalles.detalle.forEach((element) => {
-      if (element[0][0].impuestos.impuesto[0].tarifa == 12) {
-        baseImponibleSuma += parseFloat(
+      baseImponibleSuma += parseFloat(
           element[0][0].impuestos.impuesto[0].baseImponible
+        );
+      if (element[0][0].impuestos.impuesto[0].tarifa == 12) {
+        
+        valorSuma += parseFloat(
+          element[0][0].impuestos.impuesto[0].valor
         );
       }
     });
@@ -263,6 +268,7 @@ export default {
     estructuraFactura[tipoComprobante].infoFactura.totalDescuento = parseFloat(
       req.body.infoFactura.totalDescuento
     ).toFixed(2);
+    
     //      INFORMACION DE FACTRUA TOTAL CON IMPUESTO
 
     estructuraFactura[
@@ -275,17 +281,16 @@ export default {
       req.body.infoFactura.totalConImpuestos.totalImpuesto.codigoPorcentaje;
     estructuraFactura[
       tipoComprobante
-    ].infoFactura.totalConImpuestos.totalImpuesto[0].baseImponible =
-      req.body.infoFactura.importeTotal;
+    ].infoFactura.totalConImpuestos.totalImpuesto[0].baseImponible = parseFloat(baseImponibleSuma).toFixed(2);
     estructuraFactura[
       tipoComprobante
     ].infoFactura.totalConImpuestos.totalImpuesto[0].tarifa =
       req.body.infoFactura.totalConImpuestos.totalImpuesto.tarifa;
     estructuraFactura[
       tipoComprobante
-    ].infoFactura.totalConImpuestos.totalImpuesto[0].valor =
-      req.body.infoFactura.totalConImpuestos.totalImpuesto.valor;
-    //      INFORMACION DE FACTURA
+    ].infoFactura.totalConImpuestos.totalImpuesto[0].valor =parseFloat(valorSuma).toFixed(2);
+    
+    //      INFORMACION DE TOTAL FACTURA
     estructuraFactura[tipoComprobante].infoFactura.propina =
       req.body.infoFactura.propina;
     estructuraFactura[tipoComprobante].infoFactura.importeTotal =
