@@ -426,9 +426,7 @@ export default {
           console.log(err);
           res.status(500).json(err);
         } else {
-
             res.status(200).json([clave, numcomprobante, ruta]);
-
         }
       });
     });
