@@ -1,0 +1,1219 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>MORALES VARAS NELSON GUILLERMO</razonSocial>
+    <nombreComercial>COFARMO DISTRIBUCIONES</nombreComercial>
+    <ruc>1203359557001</ruc>
+    <claveAcceso>1112202301120335955700120020030000101021112102113</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>002</estab>
+    <ptoEmi>003</ptoEmi>
+    <secuencial>000010102</secuencial>
+    <dirMatriz>LOS RIOS / BABAHOYO / DR. CAMILO PONCE / LONGITUDINAL 2 S/N Y TRANSVERSAL B</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>11/12/2023</fechaEmision>
+    <dirEstablecimiento>LOS RIOS / BABAHOYO / DR. CAMILO PONCE / LONGITUDINAL 2 S/N Y TRANSVERSAL B</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>COMERCIALIZADORA VANEROMO S.A</razonSocialComprador>
+    <identificacionComprador>1291768780001</identificacionComprador>
+    <direccionComprador>LOS RIOS / BABAHOYO / FEBRES CORDERO (LAS JUNTAS) (CAB. EN MATA DE CACAO / VILLA 21 )</direccionComprador>
+    <totalSinImpuestos>1270.37</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>2</codigoPorcentaje>
+        <baseImponible>1270.37</baseImponible>
+        <tarifa>12</tarifa>
+        <valor>14.32</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>1284.69</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>01</formaPago>
+        <total>1284.69</total>
+        <plazo>30</plazo>
+        <unidadTiempo>dias</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>7861132422404</codigoPrincipal>
+      <codigoAuxiliar>E30740</codigoAuxiliar>
+      <descripcion>COLCHICINA 0.5MG </descripcion>
+      <cantidad>60</cantidad>
+      <precioUnitario>0.06</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>3.60</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="ARTRICHINE 0,5MG" />
+        <detAdicional nombre="fechas" valor="FE: 2023-09-29 FC: 2025-09-30" />
+        <detAdicional nombre="regSanitario" valor="2,91444-11-02" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>3.60</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>78611322423326</codigoPrincipal>
+      <codigoAuxiliar>E30706</codigoAuxiliar>
+      <descripcion>CLOTRIMAZOL 2%/G </descripcion>
+      <cantidad>12</cantidad>
+      <precioUnitario>2.83</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>33.96</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="CLOMAZOL 3" />
+        <detAdicional nombre="fechas" valor="FE: 2023-08-31 FC: 2026-08-31" />
+        <detAdicional nombre="regSanitario" valor="7,183-2-04-04" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>33.96</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7861132423333</codigoPrincipal>
+      <codigoAuxiliar>E30727</codigoAuxiliar>
+      <descripcion>CLOTRIMAZOL 0.2G </descripcion>
+      <cantidad>36</cantidad>
+      <precioUnitario>0.35</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>12.60</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="CLOMAZOL -3 SUPOSITORIOS  VAGINAL" />
+        <detAdicional nombre="fechas" valor="FE: 2023-09-29 FC: 2025-09-30" />
+        <detAdicional nombre="regSanitario" valor="7,167-2-03-04" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>12.60</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>78611322423807</codigoPrincipal>
+      <codigoAuxiliar>E30780</codigoAuxiliar>
+      <descripcion>BENZOCAÍNA, ÓXIDO DE ZINC ALCANFOR 12.520 g/0,300 g/0,100 G </descripcion>
+      <cantidad>15</cantidad>
+      <precioUnitario>1.9</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>28.50</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="HISTACALM LOCION " />
+        <detAdicional nombre="fechas" valor="FE: 2023-09-29 FC: 2025-09-30" />
+        <detAdicional nombre="regSanitario" valor="024645-MAC-02-03" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>28.50</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7861132426051</codigoPrincipal>
+      <codigoAuxiliar>E30483</codigoAuxiliar>
+      <descripcion>CLORURO DE SODIO 0.09% </descripcion>
+      <cantidad>15</cantidad>
+      <precioUnitario>1.09</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>16.35</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="RINSOL " />
+        <detAdicional nombre="fechas" valor="FE: 2023-06-30 FC: 2025-06-30" />
+        <detAdicional nombre="regSanitario" valor="04940-MAN-08-07" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>16.35</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7861032141351</codigoPrincipal>
+      <codigoAuxiliar>B30407</codigoAuxiliar>
+      <descripcion>ACIDO UNDECILÉNICO, UNDECILINATO DE ZIN  45G </descripcion>
+      <cantidad>11</cantidad>
+      <precioUnitario>2.71</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>29.81</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="PACK X 2 FUNGIREX POLVO X 45 GR" />
+        <detAdicional nombre="fechas" valor="FE: 2023-08-31 FC: 2026-08-31" />
+        <detAdicional nombre="regSanitario" valor="2,675-6-04" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>29.81</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7862110203565</codigoPrincipal>
+      <codigoAuxiliar>107783423</codigoAuxiliar>
+      <descripcion>VASELINA, ALCANFOR, MENTOL, ACEITE DE CEDRO, ACEITE DE EUCALIPTO, MENTOL Y TIMOL. 60G </descripcion>
+      <cantidad>5</cantidad>
+      <precioUnitario>2.12</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>10.60</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="VAPORAL ORIGINAL POMADA X 60 GR" />
+        <detAdicional nombre="fechas" valor="FE: 2023-08-31 FC: 2025-08-29" />
+        <detAdicional nombre="regSanitario" valor="NSOC03166-21EC" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12</tarifa>
+          <baseImponible>10.60</baseImponible>
+          <valor>1.27</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7702027435362</codigoPrincipal>
+      <codigoAuxiliar>GI02210224</codigoAuxiliar>
+      <descripcion>TAMPONES CON APLICADORES 6-9G </descripcion>
+      <cantidad>5</cantidad>
+      <precioUnitario>3.71</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>18.55</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="TAMPONES NOSOTRAS" />
+        <detAdicional nombre="fechas" valor="FE: 2023-02-28 FC: 2024-02-29" />
+        <detAdicional nombre="regSanitario" valor="G10221024" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>18.55</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7702057711955</codigoPrincipal>
+      <codigoAuxiliar>3D5123</codigoAuxiliar>
+      <descripcion>CEFALEXINA 250/5ML </descripcion>
+      <cantidad>6</cantidad>
+      <precioUnitario>1.19</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>7.14</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="CEFALEXINA 250/5ML C*:1" />
+        <detAdicional nombre="fechas" valor="FE: 2023-04-28 FC: 2026-04-30" />
+        <detAdicional nombre="regSanitario" valor="GBE-1286-07-09" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>7.14</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7702057074258</codigoPrincipal>
+      <codigoAuxiliar>3C1137B</codigoAuxiliar>
+      <descripcion>MELOXICAM 15MG </descripcion>
+      <cantidad>180</cantidad>
+      <precioUnitario>0.25</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>45.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="MELOXICAM 15MG " />
+        <detAdicional nombre="fechas" valor="FE: 2023-02-28 FC: 2025-02-28" />
+        <detAdicional nombre="regSanitario" valor="01331-MAC-1-06-11" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>45.00</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7702057311070</codigoPrincipal>
+      <codigoAuxiliar>3C1392.</codigoAuxiliar>
+      <descripcion>ÁCIDO ASCÓRBICO; ZINC 500MG/5MG </descripcion>
+      <cantidad>12</cantidad>
+      <precioUnitario>2.64</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>31.68</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="DPL X 4 OFERT.VITA C NARANJA" />
+        <detAdicional nombre="fechas" valor="FE: 2023-03-31 FC: 2023-11-22" />
+        <detAdicional nombre="regSanitario" valor="10321-ALE-0519" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12</tarifa>
+          <baseImponible>31.68</baseImponible>
+          <valor>3.80</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7702136356923</codigoPrincipal>
+      <codigoAuxiliar>2308015</codigoAuxiliar>
+      <descripcion>CUREBAND MICROPOROSO COLOR PIEL1/2X5 </descripcion>
+      <cantidad>24</cantidad>
+      <precioUnitario>0.93</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>22.32</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="CUREBAND MICROPOROSO COLOR PIEL 1/2X5" />
+        <detAdicional nombre="fechas" valor="FE: 2023-08-31 FC: 2027-08-31" />
+        <detAdicional nombre="regSanitario" valor="DM-0060-1-05-11" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12</tarifa>
+          <baseImponible>22.32</baseImponible>
+          <valor>2.68</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7702057072063</codigoPrincipal>
+      <codigoAuxiliar>3D1471</codigoAuxiliar>
+      <descripcion>VITAMINAS 12.33 mg,6.00 mg,3.64 mg,12.00 mc,21.73 mg,59.50 mg,800.00 MCG </descripcion>
+      <cantidad>500</cantidad>
+      <precioUnitario>0.03</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>15.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="COMPLEJO B X 250 TABLETAS" />
+        <detAdicional nombre="fechas" valor="FE: 2023-03-31 FC: 2025-03-31" />
+        <detAdicional nombre="regSanitario" valor="25,012-03-03" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>15.00</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7861152103598</codigoPrincipal>
+      <codigoAuxiliar>93532</codigoAuxiliar>
+      <descripcion>LEVONORGESTREL 1.5MG </descripcion>
+      <cantidad>10</cantidad>
+      <precioUnitario>3</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>30.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="GLANIQUE X 1 " />
+        <detAdicional nombre="fechas" valor="FE: 2022-10-31 FC: 2024-10-31" />
+        <detAdicional nombre="regSanitario" valor="5223" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>30.00</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7501033961267</codigoPrincipal>
+      <codigoAuxiliar>49456MC</codigoAuxiliar>
+      <descripcion>CALCIO, CITRATO, CLORURO, DEXTROSA, LACTATO, MAGNESIO, POTASIO, SODIO 60MEQ </descripcion>
+      <cantidad>6</cantidad>
+      <precioUnitario>2.49</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>14.94</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="PEDIALYTE 60 MAX MANZANA + ZINC " />
+        <detAdicional nombre="fechas" valor="FE: 2023-01-31 FC: 2025-01-31" />
+        <detAdicional nombre="regSanitario" valor="29630-02-11" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>14.94</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7501033961571</codigoPrincipal>
+      <codigoAuxiliar>55423MC</codigoAuxiliar>
+      <descripcion>CALCIO, CITRATO, CLORURO, DEXTROSA, LACTATO, MAGNESIO, POTASIO, SODIO 60MEQ </descripcion>
+      <cantidad>6</cantidad>
+      <precioUnitario>2.61</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>15.66</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="PEDIALYTE MAX 60 FRESA" />
+        <detAdicional nombre="fechas" valor="FE: 2023-07-31 FC: 2025-07-31" />
+        <detAdicional nombre="regSanitario" valor="29630-02-11" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>15.66</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7501033961274</codigoPrincipal>
+      <codigoAuxiliar>53451MC</codigoAuxiliar>
+      <descripcion>CALCIO, CITRATO, CLORURO, DEXTROSA, LACTATO, MAGNESIO, POTASIO, SODIO 60MEQ </descripcion>
+      <cantidad>6</cantidad>
+      <precioUnitario>2.49</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>14.94</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="PEDIALYTE  + ZINC 60 UVA" />
+        <detAdicional nombre="fechas" valor="FE: 2023-09-29 FC: 2025-09-30" />
+        <detAdicional nombre="regSanitario" valor="53451MC" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>14.94</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>5997001369210</codigoPrincipal>
+      <codigoAuxiliar>T26003E</codigoAuxiliar>
+      <descripcion>LEVONORGESTREL 1.5MG </descripcion>
+      <cantidad>10</cantidad>
+      <precioUnitario>3.14</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>31.40</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="ESCAPEL" />
+        <detAdicional nombre="fechas" valor="FE: 2023-06-30 FC: 2026-06-30" />
+        <detAdicional nombre="regSanitario" valor="27,991-10-08" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>31.40</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>8470001686343</codigoPrincipal>
+      <codigoAuxiliar>2306088</codigoAuxiliar>
+      <descripcion>PREBIÓTICOS (GOS/FOS), PROBIÓTICOS 2G </descripcion>
+      <cantidad>30</cantidad>
+      <precioUnitario>1.67</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>50.10</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="BAGOVITAL INMUNE SACHET" />
+        <detAdicional nombre="fechas" valor="FE: 2023-06-30 FC: 2025-06-30" />
+        <detAdicional nombre="regSanitario" valor="3636-ALE-0117" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12</tarifa>
+          <baseImponible>50.10</baseImponible>
+          <valor>6.01</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7862102712013</codigoPrincipal>
+      <codigoAuxiliar>053323</codigoAuxiliar>
+      <descripcion>CLORFENIRAMINA, DEXTROMETORFANO, GUAIFENESIN 10MG/5ML+100MG/5ML </descripcion>
+      <cantidad>6</cantidad>
+      <precioUnitario>3.96</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>23.76</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="TUSSOLVINA FORTE" />
+        <detAdicional nombre="fechas" valor="FE: 2023-03-31 FC: 2026-03-31" />
+        <detAdicional nombre="regSanitario" valor="6166-MAN-07-11" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>23.76</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7703153028176</codigoPrincipal>
+      <codigoAuxiliar>1438000</codigoAuxiliar>
+      <descripcion>SULFATO DE ZINC 20MG/5ML </descripcion>
+      <cantidad>3</cantidad>
+      <precioUnitario>8.89</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>26.67</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="FORTZINK " />
+        <detAdicional nombre="fechas" valor="FE: 2022-11-30 FC: 2024-11-29" />
+        <detAdicional nombre="regSanitario" valor="525-MEE-1114" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>26.67</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7441041701113</codigoPrincipal>
+      <codigoAuxiliar>21532</codigoAuxiliar>
+      <descripcion>COMPLEJO B, LIDOCAÍNA 25000MCG </descripcion>
+      <cantidad>5</cantidad>
+      <precioUnitario>8.57</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>42.85</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="NEURAL -3 AMP  X 25000MCG" />
+        <detAdicional nombre="fechas" valor="FE: 2023-09-29 FC: 2025-09-30" />
+        <detAdicional nombre="regSanitario" valor="2474-MEE-0916" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>42.85</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7861149201153</codigoPrincipal>
+      <codigoAuxiliar>K22AHZV</codigoAuxiliar>
+      <descripcion>CLORFENAMINA, D-ISOEFEDRINA, PARACETAMOL (ACETAMINOFÉN) 60MG/4MG/500MG </descripcion>
+      <cantidad>50</cantidad>
+      <precioUnitario>0.34</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>17.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="NASTIZOL " />
+        <detAdicional nombre="fechas" valor="FE: 2022-10-31 FC: 2024-10-31" />
+        <detAdicional nombre="regSanitario" valor="28727-02-09" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>17.00</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7441041800588</codigoPrincipal>
+      <codigoAuxiliar>21531</codigoAuxiliar>
+      <descripcion>COMPLEJO B, LIDOCAÍNA 10000MCG </descripcion>
+      <cantidad>5</cantidad>
+      <precioUnitario>3.01</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>15.05</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="NEURAL -3 AMP 10000UI " />
+        <detAdicional nombre="fechas" valor="FE: 2022-09-30 FC: 2024-09-30" />
+        <detAdicional nombre="regSanitario" valor="2101-CL-2896" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>15.05</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7861009806603</codigoPrincipal>
+      <codigoAuxiliar>22002311</codigoAuxiliar>
+      <descripcion>ACIDO ASCORBICO 500MG/ML </descripcion>
+      <cantidad>50</cantidad>
+      <precioUnitario>0.37</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>18.50</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="CEMIN (VITAMINA C)" />
+        <detAdicional nombre="fechas" valor="FE: 2022-12-31 FC: 2024-12-31" />
+        <detAdicional nombre="regSanitario" valor="01182-MAC-1-04-11" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>18.50</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7861148012149</codigoPrincipal>
+      <codigoAuxiliar>230119B</codigoAuxiliar>
+      <descripcion>KETOROLACO +TROMETAMINA 20MG </descripcion>
+      <cantidad>30</cantidad>
+      <precioUnitario>0.47</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>14.10</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="ALTROM 20MG" />
+        <detAdicional nombre="fechas" valor="FE: 2023-02-28 FC: 2026-02-27" />
+        <detAdicional nombre="regSanitario" valor="5483-MAN-05-09" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>14.10</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7861152100290</codigoPrincipal>
+      <codigoAuxiliar>69541</codigoAuxiliar>
+      <descripcion>KETOROLACO 10MG </descripcion>
+      <cantidad>30</cantidad>
+      <precioUnitario>0.38</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>11.40</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="DOLGENALRAPID" />
+        <detAdicional nombre="fechas" valor="FE: 2022-04-29 FC: 2024-04-30" />
+        <detAdicional nombre="regSanitario" valor="23,768-1-04-11" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>11.40</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7862119360306</codigoPrincipal>
+      <codigoAuxiliar>H2207154</codigoAuxiliar>
+      <descripcion>IBUPROFENO 400MG </descripcion>
+      <cantidad>100</cantidad>
+      <precioUnitario>0.29</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>29.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="FEMEN FORTE" />
+        <detAdicional nombre="fechas" valor="FE: 2023-07-31 FC: 2026-07-01" />
+        <detAdicional nombre="regSanitario" valor="998-MEN-0317" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>29.00</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7800060115415</codigoPrincipal>
+      <codigoAuxiliar>128331</codigoAuxiliar>
+      <descripcion>PARACETAMOL+CAFEINA+DIHIDROERGOTAMINA 450MG+40MG+1MGMG </descripcion>
+      <cantidad>50</cantidad>
+      <precioUnitario>0.35</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>17.50</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="MIGRAX " />
+        <detAdicional nombre="fechas" valor="FE: 2022-12-30 FC: 2024-12-31" />
+        <detAdicional nombre="regSanitario" valor="25,867-08-04" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>17.50</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7862102710200</codigoPrincipal>
+      <codigoAuxiliar>154323</codigoAuxiliar>
+      <descripcion>FLUORHIDROCORTISONA, LIDOCAÍNA, NEOMICINA, POLIMIXINA B 40MG/80000UI/8MG/320 MG </descripcion>
+      <cantidad>5</cantidad>
+      <precioUnitario>3.81</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>19.05</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="OTOZAMBON " />
+        <detAdicional nombre="fechas" valor="FE: 2023-06-30 FC: 2025-06-30" />
+        <detAdicional nombre="regSanitario" valor="04168-MAN-03-06" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>19.05</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7703763999750</codigoPrincipal>
+      <codigoAuxiliar>3296054</codigoAuxiliar>
+      <descripcion>ZOPICLONA 7.5MG </descripcion>
+      <cantidad>300</cantidad>
+      <precioUnitario>0.09</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>27.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="ZOPICLONA 7.5MG " />
+        <detAdicional nombre="fechas" valor="FE: 2022-08-31 FC: 2024-08-30" />
+        <detAdicional nombre="regSanitario" valor="1320-MEE-0915" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>27.00</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7861057300733</codigoPrincipal>
+      <codigoAuxiliar>I23070435</codigoAuxiliar>
+      <descripcion>VASELINA C - PERFUME  68G </descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>1.31</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>1.31</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="VASELINA C - PERFUME  68G" />
+        <detAdicional nombre="fechas" valor="FE: 2023-07-31 FC: 2026-07-31" />
+        <detAdicional nombre="regSanitario" valor="NSOC08830-15EC" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12</tarifa>
+          <baseImponible>1.31</baseImponible>
+          <valor>0.16</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7861057301105</codigoPrincipal>
+      <codigoAuxiliar>I23080511</codigoAuxiliar>
+      <descripcion>VASELINA PASITOS NATURAL 8G 8G </descripcion>
+      <cantidad>12</cantidad>
+      <precioUnitario>0.28</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>3.36</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="VASELINA PASITOS NATURAL" />
+        <detAdicional nombre="fechas" valor="FE: 2023-08-31 FC: 2025-08-29" />
+        <detAdicional nombre="regSanitario" valor="NSOC08830-15EC" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12</tarifa>
+          <baseImponible>3.36</baseImponible>
+          <valor>0.40</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7406158983265</codigoPrincipal>
+      <codigoAuxiliar>GU27814</codigoAuxiliar>
+      <descripcion>ACETILSALICÍLICO, ÁCIDO, CAFEÍNA 500MG/65MG </descripcion>
+      <cantidad>100</cantidad>
+      <precioUnitario>0.44</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>44.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="ASPIRINA ADVANCE POLVO EFERVES " />
+        <detAdicional nombre="fechas" valor="FE: 2022-10-31 FC: 2024-10-31" />
+        <detAdicional nombre="regSanitario" valor="30131-03-12" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>44.00</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7793640001928</codigoPrincipal>
+      <codigoAuxiliar>ARGJG0</codigoAuxiliar>
+      <descripcion>ACIDO ASCORBICO 2G </descripcion>
+      <cantidad>60</cantidad>
+      <precioUnitario>0.55</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>33.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="REDOXON FORTE " />
+        <detAdicional nombre="fechas" valor="FE: 2023-07-31 FC: 2025-07-31" />
+        <detAdicional nombre="regSanitario" valor="29437-11-10" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>33.00</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>361250812</codigoPrincipal>
+      <codigoAuxiliar>X25CB7</codigoAuxiliar>
+      <descripcion>ACETILSALICÍLICO, ÁCIDO, CAFEÍNA 500MG-65MG </descripcion>
+      <cantidad>50</cantidad>
+      <precioUnitario>0.25</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>12.50</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="ALKA SELTZER BOOST" />
+        <detAdicional nombre="fechas" valor="FE: 2022-09-30 FC: 2024-09-30" />
+        <detAdicional nombre="regSanitario" valor="361250812" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>12.50</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7861100402438</codigoPrincipal>
+      <codigoAuxiliar>GU31071</codigoAuxiliar>
+      <descripcion>ACIDO ACETILSALISILICO </descripcion>
+      <cantidad>300</cantidad>
+      <precioUnitario>0.14</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>42.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="ASPIRINA 100MG" />
+        <detAdicional nombre="fechas" valor="FE: 2023-04-28 FC: 2025-04-30" />
+        <detAdicional nombre="regSanitario" valor="360450612" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>42.00</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7861100401653</codigoPrincipal>
+      <codigoAuxiliar>1458622</codigoAuxiliar>
+      <descripcion>NAPROXENO SÓDICO 275MG </descripcion>
+      <cantidad>200</cantidad>
+      <precioUnitario>0.38</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>76.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="APRONAX CAPSULAS LIQUIDAS 275 MG " />
+        <detAdicional nombre="fechas" valor="FE: 2023-03-31 FC: 2023-11-07" />
+        <detAdicional nombre="regSanitario" valor="H7311013" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>76.00</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7896116865915</codigoPrincipal>
+      <codigoAuxiliar>2316829</codigoAuxiliar>
+      <descripcion>ETINIL ESTRADIOL, LEVONORGESTREL 0.15/0.03MG </descripcion>
+      <cantidad>420</cantidad>
+      <precioUnitario>0.1</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>42.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="MICROGYNON CD" />
+        <detAdicional nombre="fechas" valor="FE: 2023-03-31 FC: 2025-03-31" />
+        <detAdicional nombre="regSanitario" valor="25,02-03-03" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>42.00</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7896116865878</codigoPrincipal>
+      <codigoAuxiliar>2310740</codigoAuxiliar>
+      <descripcion>ETINILESTRADIOL, LEVONORGESTREL 0.15MG/0.03 MG </descripcion>
+      <cantidad>42</cantidad>
+      <precioUnitario>0.13</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>5.46</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="MICROGYNON SIMPLE" />
+        <detAdicional nombre="fechas" valor="FE: 2023-01-31 FC: 2025-01-31" />
+        <detAdicional nombre="regSanitario" valor="25.012-03-03" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>5.46</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7896116865878</codigoPrincipal>
+      <codigoAuxiliar>2310742</codigoAuxiliar>
+      <descripcion>ETINILESTRADIOL, LEVONORGESTREL 0.15MG/0.03 MG </descripcion>
+      <cantidad>273</cantidad>
+      <precioUnitario>0.13</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>35.49</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="MICROGYNON SIMPLE" />
+        <detAdicional nombre="fechas" valor="FE: 2023-01-31 FC: 2025-01-30" />
+        <detAdicional nombre="regSanitario" valor="25.012-03-03" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>35.49</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7501033961564</codigoPrincipal>
+      <codigoAuxiliar>51454MC</codigoAuxiliar>
+      <descripcion>CALCIO, CITRATO, CLORURO, DEXTROSA, LACTATO, MAGNESIO, POTASIO, SODIO 60MEQ </descripcion>
+      <cantidad>6</cantidad>
+      <precioUnitario>2.48</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>14.88</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="PEDIALYTE MAX 60 COCO" />
+        <detAdicional nombre="fechas" valor="FE: 2023-03-31 FC: 2025-03-31" />
+        <detAdicional nombre="regSanitario" valor=" 29630-02-11" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>14.88</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7800026015506</codigoPrincipal>
+      <codigoAuxiliar>J221021</codigoAuxiliar>
+      <descripcion>SULFAMETOXAZOL+TRIMETOPRIMA 800MG/160MG </descripcion>
+      <cantidad>50</cantidad>
+      <precioUnitario>0.23</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>11.50</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="BACTEROL FORTE" />
+        <detAdicional nombre="fechas" valor="FE: 2023-11-06 FC: 2023-11-06" />
+        <detAdicional nombre="regSanitario" valor="1007-MEE-0515" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>11.50</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>3665585002084</codigoPrincipal>
+      <codigoAuxiliar>A59384</codigoAuxiliar>
+      <descripcion>DIOSMECTITA 3G </descripcion>
+      <cantidad>60</cantidad>
+      <precioUnitario>1.1</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>66.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="SMECTA POLVO NARANJA /VAINILLA" />
+        <detAdicional nombre="fechas" valor="FE: 2023-03-31 FC: 2026-03-31" />
+        <detAdicional nombre="regSanitario" valor="3021-MEE-0917" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>66.00</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7790375267018</codigoPrincipal>
+      <codigoAuxiliar>C6UX</codigoAuxiliar>
+      <descripcion>OMEPRAZOL, BICARBONATO DE SODIO 20,00 mg/1680,00MG </descripcion>
+      <cantidad>56</cantidad>
+      <precioUnitario>0.63</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>35.28</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="ULCOZOL RAPID 20 " />
+        <detAdicional nombre="fechas" valor="FE: 2023-04-28 FC: 2026-04-30" />
+        <detAdicional nombre="regSanitario" valor="362931112" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>35.28</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7790375267452</codigoPrincipal>
+      <codigoAuxiliar>C5DE</codigoAuxiliar>
+      <descripcion>OMEPRAZOL, BICARBONATO DE SODIO 20MGMG </descripcion>
+      <cantidad>60</cantidad>
+      <precioUnitario>1.65</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>99.00</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="ULCOZOL RAPID 20 MG  SOBRES" />
+        <detAdicional nombre="fechas" valor="FE: 2022-10-31 FC: 2024-10-31" />
+        <detAdicional nombre="regSanitario" valor="364810313" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>99.00</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7861148010459</codigoPrincipal>
+      <codigoAuxiliar>230438D</codigoAuxiliar>
+      <descripcion>NISTATINA 30MG </descripcion>
+      <cantidad>3</cantidad>
+      <precioUnitario>1.48</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>4.44</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="ACRONISTINA GOT X 30 ML" />
+        <detAdicional nombre="fechas" valor="FE: 2023-04-28 FC: 2026-04-30" />
+        <detAdicional nombre="regSanitario" valor="8077-1-08-04" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>4.44</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7861148050639</codigoPrincipal>
+      <codigoAuxiliar>77023-3</codigoAuxiliar>
+      <descripcion>EXTRACTO SECO DE TILIA + EXTRACTO SECO DE PASSIFLORA INCARNATA + EXTRACTO SECO DE VALERIANA  + CICLOBENZAPRINA CLORHIDRATO  75MG+75MG+50+2.5MG </descripcion>
+      <cantidad>60</cantidad>
+      <precioUnitario>0.62</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>37.20</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="EQUIL COMP/REC X 20 CAPSULAS" />
+        <detAdicional nombre="fechas" valor="FE: 2023-06-30 FC: 2025-06-30" />
+        <detAdicional nombre="regSanitario" valor="3292-MEN-0821" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>37.20</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7861148010039</codigoPrincipal>
+      <codigoAuxiliar>230466D</codigoAuxiliar>
+      <descripcion>FLUCONAZOL 150MG </descripcion>
+      <cantidad>6</cantidad>
+      <precioUnitario>0.79</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>4.74</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="FLUCONAX 150 MG" />
+        <detAdicional nombre="fechas" valor="FE: 2023-04-28 FC: 2027-04-30" />
+        <detAdicional nombre="regSanitario" valor="00244-1-MAN-09-05" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>4.74</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>7703281001850</codigoPrincipal>
+      <codigoAuxiliar>S11294</codigoAuxiliar>
+      <descripcion>NISTATINA + ÓXIDO DE ZINC 30G </descripcion>
+      <cantidad>2</cantidad>
+      <precioUnitario>4.09</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>8.18</precioTotalSinImpuesto>
+      <detallesAdicionales>
+        <detAdicional nombre="nombreComercial" valor="NISTADERM " />
+        <detAdicional nombre="fechas" valor="FE: 2022-11-30 FC: 2024-11-29" />
+        <detAdicional nombre="regSanitario" valor="351-MEE-0814" />
+      </detallesAdicionales>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>8.18</baseImponible>
+          <valor>0</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Email">vaneromo2018@hotmail.com</campoAdicional>
+    <campoAdicional nombre="Dirección">LOS RIOS / BABAHOYO / FEBRES CORDERO (LAS JUNTAS) (CAB. EN MATA DE CACAO / VILLA 21 )</campoAdicional>
+    <campoAdicional nombre="Teléfono">0967789319</campoAdicional>
+  </infoAdicional>
+  <ns2:respuestaSolicitud xmlns:ns2="http://ec.gob.sri.ws.recepcion">
+    <estado>DEVUELTA</estado>
+    <comprobantes>
+      <comprobante>
+        <claveAcceso>1112202301120335955700120020030000101021112102113</claveAcceso>
+        <mensajes>
+          <mensaje>
+            <identificador>90</identificador>
+            <mensaje>LIMITE DE INTENTOS NO AUTORIZADOS POR DIA</mensaje>
+            <tipo>ERROR</tipo>
+          </mensaje>
+        </mensajes>
+      </comprobante>
+    </comprobantes>
+  </ns2:respuestaSolicitud>
+</factura>
